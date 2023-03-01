@@ -1,0 +1,11 @@
+@import '../../../../assets/styles/variables';
+
+.#{$app-prefix}-phone-chat {
+    background-color: var(--panel-phone-chat-background-color);
+}
+
+@media (min-width: 35em) {
+    .#{$app-prefix}-phone-chat {
+        border-left: $pix-1 solid var(--panel-phone-chat-border-color);
+    }
+}

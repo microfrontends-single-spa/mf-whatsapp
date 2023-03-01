@@ -1,0 +1,26 @@
+@import '../../../../../assets/styles/variables';
+
+.#{$app-prefix}-header-phone-data {
+    align-items: center;
+    background-color: $panel-header-phone-data-background-color;
+    color: $panel-header-phone-data-font-color;
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: $pix-50 auto;
+    gap: 1em;
+    height: $panel-header-phone-data-height;
+    padding: 0 1em;
+
+    .profile-image {
+        border-radius: $per-50;
+        
+        height: $pix-50;
+        width: $pix-50;
+
+        .image {
+            border-radius: $per-50;
+            height: $per-100;
+            width: $per-100;
+        }
+    }
+}

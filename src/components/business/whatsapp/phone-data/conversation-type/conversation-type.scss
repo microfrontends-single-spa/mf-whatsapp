@@ -1,0 +1,26 @@
+@import '../../../../../assets/styles/variables';
+
+.#{$app-prefix}-conversation-type {
+    align-items: center;
+    border-bottom: $pix-1 solid $panel-conversation-type-border-color;
+    display: grid;
+    font-size: 0.8em;
+    font-weight: bold;
+    gap: 0.2em;
+    grid-template-columns: 1fr 1fr;
+    height: $panel-conversation-type-height;
+
+    .conversation-type {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        height: $per-100;
+        justify-content: center;
+        transition: background-color 0.3s ease-in;
+
+        &.selected {
+            background-color: $panel-conversation-type-item-background-color;
+            color: $panel-conversation-type-item-font-color;
+        }
+    }
+}

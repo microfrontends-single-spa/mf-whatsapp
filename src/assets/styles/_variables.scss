@@ -1,0 +1,68 @@
+$app-prefix: mf-whatsapp;
+
+$panel-whatsapp-background-color: #fff;
+$panel-whatsapp-box-shadow-color-1: rgba(82, 63, 104, .06);
+$panel-whatsapp-box-shadow-color-2: rgba(82, 63, 104, .04);
+$panel-whatsapp-box-shadow-color-3: rgba(82, 63, 104, .04);
+
+$panel-phone-data-width: 28vw;
+
+$panel-header-phone-data-background-color: #F7931E;
+$panel-header-phone-data-font-color: #fff;
+$panel-header-phone-data-height: 60px;
+
+$panel-conversation-type-background-color: #fff;
+$panel-conversation-type-border-color: rgba(0, 0, 0, 0.1);
+$panel-conversation-type-height: 40px;
+$panel-conversation-type-item-background-color: #7F1974;
+$panel-conversation-type-item-font-color: #fff;
+
+$panel-contact-border-color: rgba(0, 0, 0, 0.1);
+$panel-contact-circle-count-conversation-background-color: #F7931E;
+$panel-contact-circle-count-conversation-font-color: #fff;
+$panel-contact-height: 40px;
+$panel-contact-select-background-color: #F7931E;
+$panel-contact-select-circle-count-conversation-background-color: #7F1974;
+$panel-contact-select-font-color: #fff;
+
+$panel-header-phone-chat-background-color: $panel-header-phone-data-background-color;
+$panel-header-phone-chat-font-color: $panel-header-phone-data-font-color;
+$panel-header-phone-chat-height: $panel-header-phone-data-height;
+
+$panel-conversation-history-background-color: #efeae2;
+
+$panel-message-history-no-from-me-background-color: #ffffff;
+$panel-message-history-from-me-background-color: #dcf8c6;
+
+$panel-footer-phone-chat-background-color: rgba(0, 0, 0, 0.05);;
+$panel-footer-phone-chat-height: $panel-header-phone-chat-height;
+
+$panel-footer-phone-chat-icon-font-color: #54656f;
+$panel-footer-phone-chat-editor-message-background-color: #fff;
+
+$pix-1: 1px;
+$pix-2: 2px;
+$pix-3: 3px;
+$pix-5: 5px;
+$pix-6: 6px;
+$pix-7: 7px;
+$pix-8: 8px;
+$pix-10: 10px;
+$pix-16: 16px;
+$pix-20: 20px;
+$pix-30: 30px;
+$pix-40: 40px;
+$pix-50: 50px;
+$pix-60: 60px;
+$pix-90: 90px;
+
+$per-50: 50%;
+$per-70: 70%;
+$per-100: 100%;
+
+$vh-100: 100vh;
+
+$vw-100: 100vw;
+
+$resolution-35em: 35em;
+$resolution-85em: 85em;

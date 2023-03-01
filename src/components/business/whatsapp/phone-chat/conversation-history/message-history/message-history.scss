@@ -1,0 +1,42 @@
+@import '../../../../../../assets/styles/variables';
+
+.#{$app-prefix}-message-history {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em;
+
+    .container-message {
+        border-radius: $pix-5;
+        box-shadow: 0 $pix-1 $pix-2 rgba(0, 0, 0, .2);
+        font-size: 0.9em;
+        max-width: 15em;
+        padding: $pix-6 $pix-5;
+        position: relative;
+
+        &.no-from-me {
+            background-color: $panel-message-history-no-from-me-background-color;
+        }
+
+        &.from-me {
+            background-color: $panel-message-history-from-me-background-color;
+        }
+
+        .date {
+            color: var(--panel-message-history-container-message-date-font-color);
+            font-size: 0.7em;
+            position: absolute;
+            right: $pix-7;
+            bottom: $pix-5;
+        }
+    }
+}
+
+@media (min-width: 35em) {
+    .#{$app-prefix}-message-history {
+        padding: 0.5em 1em;
+
+        .container-message {
+            max-width: 29em;
+        }
+    }
+}

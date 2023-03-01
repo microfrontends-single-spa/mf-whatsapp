@@ -1,0 +1,11 @@
+@import '../../../../../assets/styles/variables';
+
+.#{$app-prefix}-header-phone-chat {
+    align-items: center;
+    background-color: $panel-header-phone-chat-background-color;
+    display: flex;
+    color: $panel-header-phone-chat-font-color;
+    font-weight: bold;
+    height: $panel-header-phone-chat-height;
+    padding: 0 1em;
+}

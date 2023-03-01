@@ -1,0 +1,8 @@
+@import '../../../../../assets/styles/variables';
+
+.#{$app-prefix}-conversation-history {
+    height: calc($vh-100 - var(--panel-header-app-height) - var(--panel-container-app-padding) - var(--panel-container-app-padding) - $panel-header-phone-chat-height - $panel-footer-phone-chat-height);
+    background-color: $panel-conversation-history-background-color;
+    overflow-y: scroll;
+    transition: all 0.5s ease-in;
+}

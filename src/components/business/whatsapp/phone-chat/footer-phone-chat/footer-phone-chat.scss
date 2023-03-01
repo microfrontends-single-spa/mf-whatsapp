@@ -1,0 +1,30 @@
+@import '../../../../../assets/styles/variables';
+
+.#{$app-prefix}-footer-phone-chat {
+    background-color: $panel-footer-phone-chat-background-color;
+    align-items: center;
+    display: grid;
+    grid-template-columns: $pix-30 $pix-30 calc($per-100 - $pix-90) $pix-30;
+    height: $panel-footer-phone-chat-height;
+
+    .icon-footer {
+        align-items: center;
+        color:$panel-footer-phone-chat-icon-font-color;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+    .editor-message {
+        background-color: $panel-footer-phone-chat-editor-message-background-color;
+        border-radius: $pix-8;
+        font-size: 0.9em;
+        height: $per-70;
+        overflow-y: scroll;
+        outline:0px none transparent;
+        padding: 0.5em;
+        line-height: 1;
+        --moz-user-select: text;
+        user-select: text;
+    }
+}

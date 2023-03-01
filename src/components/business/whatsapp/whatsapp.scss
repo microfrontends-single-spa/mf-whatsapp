@@ -1,0 +1,22 @@
+@import '../../../assets/styles/variables';
+
+.#{$app-prefix}-container {
+    background-color: $panel-whatsapp-background-color;
+    box-shadow: 0 $pix-3 $pix-1 (-$pix-2) $panel-whatsapp-box-shadow-color-1,
+    0 $pix-2 $pix-2 0 $panel-whatsapp-box-shadow-color-2,
+    0 $pix-1 $pix-5 0 $panel-whatsapp-box-shadow-color-3;
+    height: $per-100;
+    display: grid;
+
+    &.hide {
+        display: none;
+    }
+}
+
+@media (min-width: $resolution-35em) {
+    .#{$app-prefix}-container {
+        //menos header y (padding-top + padding-bottom)
+        height: calc($vh-100 - var(--panel-header-app-height) - var(--panel-container-app-padding) - var(--panel-container-app-padding));
+        grid-template-columns: $panel-phone-data-width calc($per-100 - $panel-phone-data-width);
+    }
+}
