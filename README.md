@@ -12,7 +12,7 @@
 
 ## Servidor de desarrollo
 
-<p style='text-align: justify;'> Primero debemos clonar el código del <a href="https://github.com/lamatcalderon/mf-whtasapp">repositorio</a> y con una terminal instalar las dependencias</p> 
+<p style='text-align: justify;'> Primero debemos clonar el código del <a href="https://github.com/lamatcalderon/mf-whatsapp">repositorio</a> y con una terminal instalar las dependencias</p> 
 
 ```sh
 npm i
