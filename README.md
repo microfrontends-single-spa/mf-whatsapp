@@ -37,4 +37,4 @@ npm run build
 ```
 
 ## Whatsapp
-<p style='text-align: justify;'> Este micro-frontend es una versión simplificada del proyecto whatsapp que he desarrollado, el cual se encuentra en el siguiente <a href="https://lmac-whatsapp.netlify.app">enlace</a>. Este proyecto se encuentra en el siguiente repositorio <a href="https://github.com/lamatcalderon/whtasapp-front">Whatsapp</a></p> 
+<p style='text-align: justify;'> Este micro-frontend es una versión simplificada del proyecto whatsapp que he desarrollado, el cual se encuentra en el siguiente <a href="https://lmac-whatsapp.netlify.app">enlace</a>. Este proyecto se encuentra en el siguiente repositorio <a href="https://github.com/lamatcalderon/whatsapp-front">Whatsapp</a></p> 
